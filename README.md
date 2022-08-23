@@ -13,6 +13,9 @@ If the computer is tagged as a teacher, it'll also deploy the PowerPoint and One
 The second part of the script goes inside each Virtual Machines, and if given the right circumstances (Remote allowed), it'll delete the keyboard registry keys to only let English and French(Belgium).  
   
 The IME aren't deleted.  
+
+As for now, the script works with static variable but the adaptation into parameters when deployed by Microsoft Deployement Toolkit is in current work.
+
 ## Parameters:  
 - [String] Course's id
 - [Boolean] Computer state (Microsoft Trainer computer)  
